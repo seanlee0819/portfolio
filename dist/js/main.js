@@ -35,9 +35,9 @@ function toggleMenu() {
   }*/
 
 function toggleMenu() {
+  menu.classList.toggle("show");
   menuBtn.classList.toggle("close");
   menuNav.classList.toggle("show");
   menuBranding.classList.toggle("show");
-  menuNav.classList.toggle("show");
   navItems.forEach(item => item.classList.toggle("show"));
 }
