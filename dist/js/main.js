@@ -9,7 +9,7 @@ const navItems = document.querySelectorAll(".nav-item");
 //set the initial state of menu
 let showMenu = false;
 
-menuBtn.addEventListener("click", toggleMenu);
+menuBtn.addEventListener("click", toggleMenuES6);
 /*
 function toggleMenu() {
   if (!showMenu) {
@@ -34,10 +34,10 @@ function toggleMenu() {
     showMenu = false;
   }*/
 
-function toggleMenu() {
+function toggleMenuES6() {
   menu.classList.toggle("show");
   menuBtn.classList.toggle("close");
   menuNav.classList.toggle("show");
   menuBranding.classList.toggle("show");
-  navItems.forEach(item => item.classList.toggle("show"));
+  navItems.forEach((item) => item.classList.toggle("show"));
 }
