@@ -39,6 +39,12 @@ a {
   text-decoration: none;
 }
 
+ul {
+  word-break: break-word;
+  padding-inline-start: 20px;
+  text-align: left;
+}
+
 header {
   position: fixed; // header always stays on top
   z-index: 2;

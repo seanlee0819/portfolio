@@ -2,7 +2,7 @@
 
 .menu-btn {
   position: absolute;
-  z-index: 4;
+  z-index: 3;
   top: 35px;
   right: 35px;
   cursor: pointer;
@@ -70,7 +70,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: rgba(darken($primary-color, 5), 0.7);
+    background: rgba(darken($primary-color, 5), 0.9);
     list-style: none;
     transform: translateY(-100%);
     @include easeOut;
@@ -82,7 +82,7 @@
   }
 
   &-branding {
-    background: rgba($primary-color, 0.7);
+    background: rgba($primary-color, 0.9);
     @include easeOut;
     transform: translateY(100%);
 

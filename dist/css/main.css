@@ -76,7 +76,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: rgba(55, 55, 55, 0.7);
+  background: rgba(55, 55, 55, 0.9);
   list-style: none;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -90,7 +90,7 @@
 }
 
 .menu-branding {
-  background: rgba(68, 68, 68, 0.7);
+  background: rgba(68, 68, 68, 0.9);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   -webkit-transform: translateY(100%);
@@ -304,6 +304,13 @@ h3.sm-heading {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+ul {
+  word-break: break-word;
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+  text-align: left;
 }
 
 header {
